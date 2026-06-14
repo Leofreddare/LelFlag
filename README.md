@@ -95,14 +95,3 @@ The editor warns you that valid JSON is required before saving.
 LelFlag can open the Roblox `ClientSettings` folder directly, making it easier to inspect or back up your configuration.
 
 No more manually digging through Roblox version folders.
-
----
-
-### Reset modules
-
-LelFlag includes a reset option for the currently selected client.
-
-Resetting modules replaces `ClientAppSettings.json` with an empty JSON object:
-
-```json
-{}
