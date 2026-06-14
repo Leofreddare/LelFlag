@@ -1,0 +1,28 @@
+{
+    "categories": [
+        {
+            "id": "performance",
+            "name": "Performance",
+            "description": "FPS, stutter reduction, CPU, memory, and balanced performance presets.",
+            "icon": "assets/icons/performance.png"
+        },
+        {
+            "id": "rendering",
+            "name": "Rendering",
+            "description": "Graphics, lighting, shadows, textures, meshes, terrain, sky, and render quality flags.",
+            "icon": "assets/icons/Rendering.png"
+        },
+        {
+            "id": "environment",
+            "name": "Environment",
+            "description": "World, grass, wind, viewport, and visual environment options.",
+            "icon": "assets/icons/Environment.png"
+        },
+        {
+            "id": "interface",
+            "name": "Interface",
+            "description": "UI, titlebar, autocomplete, FPS display, and CoreGUI-related flags.",
+            "icon": "assets/icons/Interface.png"
+        }
+    ]
+}

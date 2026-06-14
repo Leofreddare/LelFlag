@@ -1,0 +1,106 @@
+{
+  "modules": [
+    {
+      "id": "Gray_Sky",
+      "name": "Gray sky/ No clouds",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagDebugSkyGray": "True"
+      }
+    },
+    {
+      "id": "low_polygons",
+      "name": "Low Polygons",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntCSGLevelOfDetailSwitchingDistance": 0,
+        "DFIntCSGLevelOfDetailSwitchingDistanceL12": 0,
+        "DFIntCSGLevelOfDetailSwitchingDistanceL23": 0,
+        "DFIntCSGLevelOfDetailSwitchingDistanceL34": 0
+      }
+    },
+    {
+      "id": "reduced_motion",
+      "name": "Reduced Motion",
+      "categoryId": "interface",
+      "flags": {
+        "FIntGrassMovementReducedMotionFactor": "0"
+      }
+    },
+    {
+      "id": "prefer_vulcan (Performance Increase for modern machines)",
+      "name": "Prefer Vulcan",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagDebugGraphicsPreferVulkan": "True"
+      }
+    },
+    {
+      "id": "prefer_open_gl (Performance Increase for older machines)",
+      "name": "Prefer OpenGL",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagDebugGraphicsPreferOpenGL": "True"
+      }
+    },
+    {
+      "id": "remove_grass",
+      "name": "Remove Grass",
+      "categoryId": "environment",
+      "flags": {
+        "FIntFRMMaxGrassDistance": "0",
+        "FIntFRMMinGrassDistance": "0"
+      }
+    },
+    {
+      "id": "low_quality_graphics",
+      "name": "Low Quality Graphics",
+      "categoryId": "performance",
+      "flags": {
+        "DFFlagTextureQualityOverrideEnabled": true,
+        "DFIntTextureQualityOverride": 0
+      }
+    },
+    {
+      "id": "force_direct3d11",
+      "name": "Force Direct3D11 (Performance Increase for modern machines)",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagDebugGraphicsDisableDirect3D11": false,
+        "FFlagDebugGraphicsPreferD3D11": true
+      }
+    },
+    {
+      "id": "break_voxel_lighting",
+      "name": "Break Voxel Lighting (only works with voxel lighting)",
+      "categoryId": "rendering",
+      "flags": {
+        "DFFlagDebugPauseVoxelizer": true
+      }
+    },
+    {
+      "id": "High_Res_Becomes_Lower_resolution",
+      "name": "High Res Becomes Lower Resolution",
+      "categoryId": "rendering",
+      "flags": {
+        "DFFlagDisableDPIScale": false
+      }
+    },
+    {
+      "id": "disable_anti_aliasing",
+      "name": "Disable Anti-Aliasing",
+      "categoryId": "rendering",
+      "flags": {
+        "FIntDebugForceMSAASamples": 0
+      }
+    },
+    {
+      "id": "alt_enter_fullscreen",
+      "name": "Alt Enter Fullscreen",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagHandleAltEnterFullscreenManually": "False"
+      }
+    }
+  ]
+}

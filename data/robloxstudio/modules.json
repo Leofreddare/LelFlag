@@ -1,0 +1,1918 @@
+{
+  "modules": [
+    {
+      "id": "Gray_Sky",
+      "name": "Gray sky/ No clouds",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagDebugSkyGray": "True"
+      }
+    },
+    {
+      "id": "low_polygons",
+      "name": "Low Polygons",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntCSGLevelOfDetailSwitchingDistance": 0,
+        "DFIntCSGLevelOfDetailSwitchingDistanceL12": 0,
+        "DFIntCSGLevelOfDetailSwitchingDistanceL23": 0,
+        "DFIntCSGLevelOfDetailSwitchingDistanceL34": 0
+      }
+    },
+    {
+      "id": "reduced_motion",
+      "name": "Reduced Motion",
+      "categoryId": "interface",
+      "flags": {
+        "FIntGrassMovementReducedMotionFactor": "0"
+      }
+    },
+    {
+      "id": "prefer_vulcan_performance_increase_for_modern_machines",
+      "name": "Prefer Vulcan",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagDebugGraphicsPreferVulkan": "True"
+      }
+    },
+    {
+      "id": "prefer_open_gl_performance_increase_for_older_machines",
+      "name": "Prefer OpenGL",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagDebugGraphicsPreferOpenGL": "True"
+      }
+    },
+    {
+      "id": "remove_grass",
+      "name": "Remove Grass",
+      "categoryId": "environment",
+      "flags": {
+        "FIntFRMMaxGrassDistance": "0",
+        "FIntFRMMinGrassDistance": "0"
+      }
+    },
+    {
+      "id": "low_quality_graphics",
+      "name": "Low Quality Graphics",
+      "categoryId": "performance",
+      "flags": {
+        "DFFlagTextureQualityOverrideEnabled": true,
+        "DFIntTextureQualityOverride": 0
+      }
+    },
+    {
+      "id": "force_direct3d11",
+      "name": "Force Direct3D11 (Performance Increase for modern machines)",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagDebugGraphicsDisableDirect3D11": false,
+        "FFlagDebugGraphicsPreferD3D11": true
+      }
+    },
+    {
+      "id": "break_voxel_lighting",
+      "name": "Break Voxel Lighting (only works with voxel lighting)",
+      "categoryId": "rendering",
+      "flags": {
+        "DFFlagDebugPauseVoxelizer": true
+      }
+    },
+    {
+      "id": "High_Res_Becomes_Lower_resolution",
+      "name": "High Res Becomes Lower Resolution",
+      "categoryId": "rendering",
+      "flags": {
+        "DFFlagDisableDPIScale": false
+      }
+    },
+    {
+      "id": "disable_anti_aliasing",
+      "name": "Disable Anti-Aliasing",
+      "categoryId": "rendering",
+      "flags": {
+        "FIntDebugForceMSAASamples": 0
+      }
+    },
+    {
+      "id": "alt_enter_fullscreen",
+      "name": "Alt Enter Fullscreen",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagHandleAltEnterFullscreenManually": "False"
+      }
+    },
+    {
+      "id": "render_with_direct3d_11",
+      "name": "Render With Direct3D 11",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagDebugGraphicsDisableDirect3D11": "False",
+        "FFlagDebugGraphicsPreferD3D11": "True"
+      }
+    },
+    {
+      "id": "render_with_vulkan",
+      "name": "Render With Vulkan (May glitch out!)",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagDebugGraphicsDisableDirect3D11": "True",
+        "FFlagDebugGraphicsPreferVulkan": "True",
+        "FFlagRenderVulkanFixMinimizeWindow": "True"
+      }
+    },
+    {
+      "id": "render_with_opengl",
+      "name": "Render With OpenGL",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagDebugGraphicsDisableDirect3D11": "True",
+        "FFlagDebugGraphicsPreferOpenGL": "True"
+      }
+    },
+    {
+      "id": "render_with_metal",
+      "name": "Render with Metal (macOS only)",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagDebugGraphicsDisableDirect3D11": "True",
+        "FFlagDebugGraphicsPreferMetal": "True"
+      }
+    },
+    {
+      "id": "disable_unnecessary_effects",
+      "name": "Disable Unnecessary Effects",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagDisablePostFx": "True"
+      }
+    },
+    {
+      "id": "display_fps",
+      "name": "Display FPS",
+      "categoryId": "rendering",
+      "flags": {
+        "FFlagDebugDisplayFPS": "True"
+      }
+    },
+    {
+      "id": "boost_fps",
+      "name": "Boost FPS",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntCSGLevelOfDetailSwitchingDistance": 250,
+        "DFIntCSGLevelOfDetailSwitchingDistanceL12": 500,
+        "DFIntCSGLevelOfDetailSwitchingDistanceL23": 750,
+        "DFIntCSGLevelOfDetailSwitchingDistanceL34": 1000,
+        "DFIntTextureQualityOverride": 1,
+        "FFlagDisablePostFx": true
+      }
+    },
+    {
+      "id": "vrco_3_lq_advanced_fps_booster",
+      "name": "vRCO 3 [LQ] (Advanced Fps Booster)",
+      "categoryId": "performance",
+      "flags": {
+        "FIntGrassMovementReducedMotionFactor": "0",
+        "FFlagRenderNoLowFrmBloom": "False",
+        "FIntRenderShadowIntensity": "0",
+        "DFIntDebugFRMQualityLevelOverride": "1",
+        "FIntRenderLocalLightUpdatesMax": "8",
+        "FIntRenderLocalLightUpdatesMin": "6",
+        "FFlagDisablePostFx": "True",
+        "FFlagRenderDynamicResolutionScale9": "True",
+        "FFlagMovePrerender": "True",
+        "FFlagFastGPULightCulling3": "True",
+        "DFIntMaxFrameBufferSize": "4",
+        "DFFlagTextureQualityOverrideEnabled": "True",
+        "DFIntTextureQualityOverride": "3",
+        "FIntFRMMinGrassDistance": "0",
+        "FIntFRMMaxGrassDistance": "0",
+        "FIntRenderGrassDetailStrands": "0",
+        "FIntDebugForceMSAASamples": "0",
+        "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+        "DFIntTaskSchedulerTargetFps": "9999",
+        "FFlagUserShowGuiHideToggles": "True",
+        "GuiHidingApiSupport2": "True",
+        "FFlagFixSensitivityTextPrecision": "False",
+        "FFlagAdServiceEnabled": "False",
+        "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+        "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+        "FFlagDebugDisableTelemetryEphemeralStat": "True",
+        "FFlagDebugDisableTelemetryEventIngest": "True",
+        "FFlagDebugDisableTelemetryPoint": "True",
+        "FFlagDebugDisableTelemetryV2Counter": "True",
+        "FFlagDebugDisableTelemetryV2Event": "True",
+        "FFlagDebugDisableTelemetryV2Stat": "True",
+        "FFlagEnableQuickGameLaunch": "True",
+        "DFIntNumAssetsMaxToPreload": "9999999",
+        "DFIntAssetPreloading": "9999999",
+        "FFlagDebugCheckRenderThreading": "True",
+        "FFlagRenderDebugCheckThreading2": "True",
+        "FFlagVoiceBetaBadge": "False",
+        "FFlagTopBarUseNewBadge": "False",
+        "FFlagBetaBadgeLearnMoreLinkFormview": "False",
+        "FFlagControlBetaBadgeWithGuac": "False",
+        "FStringVoiceBetaBadgeLearnMoreLink": "null"
+      }
+    },
+    {
+      "id": "fullbright",
+      "name": "Fullbright (Doesn't work on all games)",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagFastGPULightCulling3": "True",
+        "FIntRenderShadowIntensity": "0",
+        "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+        "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+        "FFlagNewLightAttenuation": "True",
+        "FIntRenderShadowmapBias": "-1",
+        "DFFlagDebugPauseVoxelizer": "True"
+      }
+    },
+    {
+      "id": "kinda_esp",
+      "name": "Kinda ESP",
+      "categoryId": "abusive",
+      "flags": {
+        "FFlagDebugHumanoidRendering": "True"
+      }
+    },
+    {
+      "id": "destroy_decals",
+      "name": "Destroy Decals",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagDebugTestImageDrawItem": "True"
+      }
+    },
+    {
+      "id": "melt_chat",
+      "name": "Melt chat",
+      "categoryId": "interface",
+      "flags": {
+        "FIntDebugTextElongationFactor": "6785"
+      }
+    },
+    {
+      "id": "disable_player_shadows",
+      "name": "Disable Player Shadows",
+      "categoryId": "environment",
+      "flags": {
+        "FIntRenderShadowIntensity": "0"
+      }
+    },
+    {
+      "id": "disable_grass",
+      "name": "Disable Grass",
+      "categoryId": "environment",
+      "flags": {
+        "FIntFRMMinGrassDistance": "0",
+        "FIntFRMMaxGrassDistance": "0",
+        "FIntRenderGrassDetailStrands": "0"
+      }
+    },
+    {
+      "id": "unlimited_zoom_limit",
+      "name": "Unlimited Zoom Limit (Doesn't work in all games)",
+      "categoryId": "environment",
+      "flags": {
+        "FIntCameraMaxZoomDistance": "99999"
+      }
+    },
+    {
+      "id": "ragdoll_at_death",
+      "name": "Ragdoll at death",
+      "categoryId": "environment",
+      "flags": {
+        "DFStringDefaultAvatarDeathType": "Ragdoll"
+      }
+    },
+    {
+      "id": "unlimited_voice_chat_distance",
+      "name": "Unlimited voice chat distance",
+      "categoryId": "network",
+      "flags": {
+        "DFIntVoiceChatRollOffMinDistance": "7",
+        "DFIntVoiceChatRollOffMaxDistance": "999999"
+      }
+    },
+    {
+      "id": "slide_on_terrain_meshes",
+      "name": "Slide on Terrain/Meshes",
+      "categoryId": "environment",
+      "flags": {
+        "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
+      }
+    },
+    {
+      "id": "noclip_cam",
+      "name": "Noclip Cam",
+      "categoryId": "interface",
+      "flags": {
+        "DFIntRaycastMaxDistance": "3"
+      }
+    },
+    {
+      "id": "lower_ping",
+      "name": "Lower Ping",
+      "categoryId": "network",
+      "flags": {
+        "DFIntConnectionMTUSize": 900,
+        "FIntRakNetResendBufferArrayLength": "128",
+        "FFlagOptimizeNetwork": "True",
+        "FFlagOptimizeNetworkRouting": "True",
+        "FFlagOptimizeNetworkTransport": "True",
+        "FFlagOptimizeServerTickRate": "True",
+        "DFIntServerPhysicsUpdateRate": "60",
+        "DFIntServerTickRate": "60",
+        "DFIntRakNetResendRttMultiple": "1",
+        "DFIntRaknetBandwidthPingSendEveryXSeconds": "1",
+        "DFIntOptimizePingThreshold": "50",
+        "DFIntPlayerNetworkUpdateQueueSize": "20",
+        "DFIntPlayerNetworkUpdateRate": "60",
+        "DFIntNetworkPrediction": "120",
+        "DFIntNetworkLatencyTolerance": "1",
+        "DFIntMinimalNetworkPrediction": "0.1"
+      }
+    },
+    {
+      "id": "fps_unlocker",
+      "name": "FPS unlocker",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntTaskSchedulerTargetFps": "29383",
+        "FFlagGameBasicSettingsFramerateCap5": "False",
+        "FFlagTaskSchedulerLimitTargetFpsTo2402": "False"
+      }
+    },
+    {
+      "id": "no_knockback",
+      "name": "No Knockback",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntGameNetLocalSpaceMaxSendIndex": "100000",
+        "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
+      }
+    },
+    {
+      "id": "fling_light_weight_unanchored_parts_at_touch",
+      "name": "Fling light weight unanchored parts at touch",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntSolidFloorPercentForceApplication": "-1000",
+        "DFIntNonSolidFloorPercentForceApplication": "-5000"
+      }
+    },
+    {
+      "id": "drunk_movement",
+      "name": "Drunk (Drunk Movement)",
+      "categoryId": "abusive",
+      "flags": {
+        "FFlagSimAdaptiveTimesteppingDefault2": "True",
+        "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+        "DFFlagSimHumanoidTimestepModelUpdate": "True"
+      }
+    },
+    {
+      "id": "invisible",
+      "name": "Invisible (Doesn't work great)",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntGameNetOptimizeParallelPhysicsSendAssemblyBatch": "-1",
+        "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "-1"
+      }
+    },
+    {
+      "id": "noclip",
+      "name": "Mesh Noclip",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntPhysicsDecompForceUpgradeVersion": "2000"
+      }
+    },
+    {
+      "id": "wallglide",
+      "name": "WallGlide",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntMaximumUnstickForceInGs": "-10"
+      }
+    },
+    {
+      "id": "weird_sounds",
+      "name": "Weird Sounds (Kinda works)",
+      "categoryId": "abusive",
+      "flags": {
+        "FFlagSoundsUsePhysicalVelocity": "True"
+      }
+    },
+    {
+      "id": "fling_at_touch",
+      "name": "Fling at touch (Doesn't work great)",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+        "DFFlagSimHumanoidTimestepModelUpdate": "True",
+        "FFlagDebugSimDefaultPrimalSolver": "True",
+        "FFlagSimAdaptiveTimesteppingDefault2": "True",
+        "DFIntDebugSimPrimalWarmstartVelocity": "-10",
+        "DFIntDebugSimPrimalWarmstartForce": "1750",
+        "DFIntDebugSimPrimalPreconditioner": "-20",
+        "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+        "DFIntDebugSimPrimalNewtonIts": "2",
+        "DFIntDebugSimPrimalToleranceInv": "2"
+      }
+    },
+    {
+      "id": "caution_this_may_get_you_banned",
+      "name": "Caution this may get you banned!",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntMinClientSimulationRadius": "2147000000",
+        "DFIntMinimalSimRadiusBuffer": "2147000000",
+        "DFIntMaxClientSimulationRadius": "2147000000",
+        "DFFlagDebugPhysicsSenderDoesNotShrinkSimRadius": "True",
+        "FFlagDebugUseCustomSimRadius": "True"
+      }
+    },
+    {
+      "id": "direct_x_10",
+      "name": "Direct X 10",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagDebugGraphicsPreferD3D11FL10": "True"
+      }
+    },
+    {
+      "id": "voxel_lighting_phase_1",
+      "name": "Voxel Lighting (Phase 1)",
+      "categoryId": "environment",
+      "flags": {
+        "DFFlagDebugRenderForceTechnologyVoxel": "True"
+      }
+    },
+    {
+      "id": "shadowmap_lighting_phase_2",
+      "name": "Shadowmap Lighting (Phase 2)",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagDebugForceFutureIsBrightPhase2": "True"
+      }
+    },
+    {
+      "id": "future_lighting_phase_3",
+      "name": "Future Lighting (Phase 3)",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagDebugForceFutureIsBrightPhase3": "True"
+      }
+    },
+    {
+      "id": "unified_lighting",
+      "name": "Unified Lighting",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagRenderUnifiedLighting6": "True",
+        "FFlagUnifiedLightingBetaFeature": "True"
+      }
+    },
+    {
+      "id": "increased_grass_motion_and_no_grass_motion",
+      "name": "Increased Grass Motion & No Grass Motion",
+      "categoryId": "environment",
+      "flags": {
+        "FIntGrassMovementReducedMotionFactor": "999"
+      }
+    },
+    {
+      "id": "no_bloomclouds",
+      "name": "No Bloom/Clouds",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagRenderNoLowFrmBloom": "False"
+      }
+    },
+    {
+      "id": "render_occlusion_culling",
+      "name": "Render Occlusion Culling",
+      "categoryId": "performance",
+      "flags": {
+        "DFFlagUseVisBugChecks": "True",
+        "FFlagEnableVisBugChecks27": "True",
+        "FFlagVisBugChecksThreadYield": "True",
+        "FIntEnableVisBugChecksHundredthPercent27": "100"
+      }
+    },
+    {
+      "id": "increased_particles_on_low_graphics",
+      "name": "Increased Particles on low graphics",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagDebugDeterministicParticles": "True"
+      }
+    },
+    {
+      "id": "makes_stuff_slightly_brighter",
+      "name": "Makes stuff slightly brighter",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagRenderFixFog": "True"
+      }
+    },
+    {
+      "id": "hyperthreading",
+      "name": "HyperThreading",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagDebugCheckRenderThreading": "True",
+        "FFlagRenderDebugCheckThreading2": "True"
+      }
+    },
+    {
+      "id": "maximum_threads",
+      "name": "Maximum Threads",
+      "categoryId": "performance",
+      "flags": {
+        "FIntRuntimeMaxNumOfThreads": "2400"
+      }
+    },
+    {
+      "id": "minimum_threads",
+      "name": "Minimum Threads",
+      "categoryId": "performance",
+      "flags": {
+        "FIntTaskSchedulerThreadMin": "3"
+      }
+    },
+    {
+      "id": "smoother_terrain",
+      "name": "Smoother Terrain",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagDebugRenderingSetDeterministic": "True"
+      }
+    },
+    {
+      "id": "force_graphics_quality_level",
+      "name": "Force Graphics Quality Level",
+      "categoryId": "performance",
+      "flags": {
+        "FIntRomarkStartWithGraphicQualityLevel": "1"
+      }
+    },
+    {
+      "id": "disable_shadows",
+      "name": "Disable Shadows",
+      "categoryId": "environment",
+      "flags": {
+        "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+        "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
+      }
+    },
+    {
+      "id": "preserve_rendering_quality_with_display_setting",
+      "name": "Preserve rendering quality with display setting",
+      "categoryId": "performance",
+      "flags": {
+        "DFFlagDisableDPIScale": "True"
+      }
+    },
+    {
+      "id": "low_graphics_quality_w_max_render_distancefrm_quality_levels",
+      "name": "Low Graphics Quality w/ Max Render Distance/FRM Quality Levels",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntDebugFRMQualityLevelOverride": "1"
+      }
+    },
+    {
+      "id": "frm_21_graphics_quality_slider",
+      "name": "FRM 21 Graphics Quality Slider",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagCommitToGraphicsQualityFix": "True",
+        "FFlagFixGraphicsQuality": "True"
+      }
+    },
+    {
+      "id": "low_render_distance",
+      "name": "Low Render Distance",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntDebugRestrictGCDistance": "1"
+      }
+    },
+    {
+      "id": "limits_light_updates",
+      "name": "Limits light updates",
+      "categoryId": "environment",
+      "flags": {
+        "FIntRenderLocalLightUpdatesMax": "8",
+        "FIntRenderLocalLightUpdatesMin": "6"
+      }
+    },
+    {
+      "id": "disables_fade_in_and_fade_out_animation_every_light_update",
+      "name": "Disables fade in and fade out animation every light update",
+      "categoryId": "environment",
+      "flags": {
+        "FIntRenderLocalLightFadeInMs": "0"
+      }
+    },
+    {
+      "id": "makes_avatars_shiny",
+      "name": "Makes avatars shiny",
+      "categoryId": "environment",
+      "flags": {
+        "DFIntRenderClampRoughnessMax": "-640000000",
+        "DFIntDebugFRMQualityLevelOverride": "6"
+      }
+    },
+    {
+      "id": "lighting_attenuation",
+      "name": "Lighting Attenuation",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagNewLightAttenuation": "True"
+      }
+    },
+    {
+      "id": "enable_gpulightculling",
+      "name": "Enable GPULightCulling",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagFastGPULightCulling3": "True"
+      }
+    },
+    {
+      "id": "enable_cpulightculling",
+      "name": "Enable CPULightCulling",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagDebugForceFSMCPULightCulling": "True"
+      }
+    },
+    {
+      "id": "frame_buffer",
+      "name": "Frame Buffer",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntMaxFrameBufferSize": "4"
+      }
+    },
+    {
+      "id": "low_quality_terrain_textures",
+      "name": "Low Quality Terrain Textures",
+      "categoryId": "environment",
+      "flags": {
+        "FIntTerrainArraySliceSize": "4"
+      }
+    },
+    {
+      "id": "force_texture_quality",
+      "name": "Force Texture Quality",
+      "categoryId": "performance",
+      "flags": {
+        "DFFlagTextureQualityOverrideEnabled": "True",
+        "DFIntTextureQualityOverride": "3"
+      }
+    },
+    {
+      "id": "lower_quality_textures",
+      "name": "Lower Quality Textures",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntPerformanceControlTextureQualityBestUtility": "-1"
+      }
+    },
+    {
+      "id": "no_avatar_textures",
+      "name": "No avatar textures",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntTextureCompositorActiveJobs": "0"
+      }
+    },
+    {
+      "id": "texture_manager",
+      "name": "Texture Manager",
+      "categoryId": "performance",
+      "flags": {
+        "FIntDebugTextureManagerSkipMips": "-1"
+      }
+    },
+    {
+      "id": "force_msaa",
+      "name": "Force MSAA",
+      "categoryId": "rendering",
+      "flags": {
+        "FIntDebugForceMSAASamples": "4"
+      }
+    },
+    {
+      "id": "shadowmap_bias",
+      "name": "ShadowMap Bias",
+      "categoryId": "environment",
+      "flags": {
+        "FIntRenderShadowmapBias": "75"
+      }
+    },
+    {
+      "id": "limits_number_of_animations_being_played",
+      "name": "Limits number of animations being played",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntMaxActiveAnimationTracks": "0"
+      }
+    },
+    {
+      "id": "disable_vc",
+      "name": "Disable VC",
+      "categoryId": "privacy",
+      "flags": {
+        "DFFlagVoiceChat4": "False"
+      }
+    },
+    {
+      "id": "5_decimal_sensitivity_precision",
+      "name": "5 Decimal Sensitivity Precision",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagFixSensitivityTextPrecision": "False"
+      }
+    },
+    {
+      "id": "removes_translated_supported_message_on_join",
+      "name": "Removes translated supported message on join",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagChatTranslationEnableSystemMessage": false
+      }
+    },
+    {
+      "id": "allows_you_to_customize_which_languages_are_available_for_the_chat_translation_feature",
+      "name": "Allows you to customize which languages are available for the chat translation feature",
+      "categoryId": "privacy",
+      "flags": {
+        "FStringChatTranslationEnabledLocales": "es_es,fr_fr,pt_br,de_de,it_it,ja_jp,ko_kr,id_id,tr_tr,zh_cn,zh_tw,th_th,pl_pl,vi_vn,ru_ru,"
+      }
+    },
+    {
+      "id": "remove_long_recommended_section_in_homepage",
+      "name": "Remove long recommended section in homepage",
+      "categoryId": "interface",
+      "flags": {
+        "FIntGameGridFlexFeedItemTileNumPerFeed": "0"
+      }
+    },
+    {
+      "id": "disable_captures_keybind",
+      "name": "Disable Captures Keybind",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagEnableCapturesHotkeyExperiment_v4": "False"
+      }
+    },
+    {
+      "id": "reduced_avatar_item_particle_in_fp",
+      "name": "Reduced Avatar Item Particle in FP",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagUserHideCharacterParticlesInFirstPerson": "True"
+      }
+    },
+    {
+      "id": "fps_unlocker_in_roblox_menu_settings",
+      "name": "FPS Unlocker in Roblox Menu Settings",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagGameBasicSettingsFramerateCap5": "True",
+        "DFIntTaskSchedulerTargetFps": "0"
+      }
+    },
+    {
+      "id": "unlimited_fps_unlocker",
+      "name": "Unlimited FPS Unlocker",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+        "DFIntTaskSchedulerTargetFps": "9999"
+      }
+    },
+    {
+      "id": "gui_hiding_toggles",
+      "name": "GUI Hiding Toggles",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagUserShowGuiHideToggles": "True",
+        "GuiHidingApiSupport2": "True"
+      }
+    },
+    {
+      "id": "hide_guis",
+      "name": "Hide guis",
+      "categoryId": "interface",
+      "flags": {
+        "DFIntCanHideGuiGroupId": "ID"
+      }
+    },
+    {
+      "id": "remove_layared_clothing_related_for_searching_in_lua_app_catalog",
+      "name": "Remove layared clothing related for searching in lua app catalog",
+      "categoryId": "interface",
+      "flags": {
+        "FStringAXCategories": "ClassicShirts.ClassicTShirts.ClassicPants"
+      }
+    },
+    {
+      "id": "disable_fullscreen_title_bar",
+      "name": "Disable Fullscreen Title Bar",
+      "categoryId": "interface",
+      "flags": {
+        "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
+      }
+    },
+    {
+      "id": "stuttery_animation_fix",
+      "name": "Stuttery Animation Fix",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntTimestepArbiterThresholdCFLThou": "300"
+      }
+    },
+    {
+      "id": "disable_in_game_advertisements",
+      "name": "Disable In-game Advertisements",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagAdServiceEnabled": "False"
+      }
+    },
+    {
+      "id": "disable_telemetry",
+      "name": "Disable Telemetry",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+        "FFlagDebugDisableTelemetryEphemeralStat": "True",
+        "FFlagDebugDisableTelemetryEventIngest": "True",
+        "FFlagDebugDisableTelemetryPoint": "True",
+        "FFlagDebugDisableTelemetryV2Counter": "True",
+        "FFlagDebugDisableTelemetryV2Event": "True",
+        "FFlagDebugDisableTelemetryV2Stat": "True"
+      }
+    },
+    {
+      "id": "surf_the_web_inside_of_roblox",
+      "name": "Surf the web inside of Roblox",
+      "categoryId": "network",
+      "flags": {
+        "FFlagTopBarUseNewBadge": "True",
+        "FStringTopBarBadgeLearnMoreLink": "https://google.com/",
+        "FStringVoiceBetaBadgeLearnMoreLink": "https://google.com/"
+      }
+    },
+    {
+      "id": "mtu",
+      "name": "MTU",
+      "categoryId": "network",
+      "flags": {
+        "DFIntConnectionMTUSize": "MTU_HERE"
+      }
+    },
+    {
+      "id": "no_internet_disconnect",
+      "name": "No Internet Disconnect",
+      "categoryId": "network",
+      "flags": {
+        "DFFlagDebugDisableTimeoutDisconnect": "True"
+      }
+    },
+    {
+      "id": "adjust_default_timeout_time",
+      "name": "Adjust Default Timeout Time",
+      "categoryId": "network",
+      "flags": {
+        "DFIntDefaultTimeoutTimeMs": "10000"
+      }
+    },
+    {
+      "id": "quick_game_launch",
+      "name": "Quick Game Launch",
+      "categoryId": "performance",
+      "flags": {
+        "FFlagEnableQuickGameLaunch": "True"
+      }
+    },
+    {
+      "id": "increased_asset_preloading_count",
+      "name": "Increased Asset Preloading Count",
+      "categoryId": "performance",
+      "flags": {
+        "DFIntNumAssetsMaxToPreload": "9999999",
+        "DFIntAssetPreloading": "9999999"
+      }
+    },
+    {
+      "id": "disable_in_game_purchases",
+      "name": "Disable In-Game Purchases",
+      "categoryId": "privacy",
+      "flags": {
+        "DFFlagOrder66": "True"
+      }
+    },
+    {
+      "id": "disable_chat",
+      "name": "Disable Chat",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagDebugForceChatDisabled": "True"
+      }
+    },
+    {
+      "id": "disable_dynamic_heads_animations",
+      "name": "Disable Dynamic Heads Animations",
+      "categoryId": "environment",
+      "flags": {
+        "DFIntAnimationLodFacsDistanceMin": "0",
+        "DFIntAnimationLodFacsDistanceMax": "0",
+        "DFIntAnimationLodFacsVisibilityDenominator": "0"
+      }
+    },
+    {
+      "id": "automatically_unmutes_your_mic_on_join_vc",
+      "name": "Automatically unmutes your mic on join (VC)",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagDebugDefaultChannelStartMuted": "False"
+      }
+    },
+    {
+      "id": "opt_out_experience_language",
+      "name": "opt-out Experience Language",
+      "categoryId": "interface",
+      "flags": {
+        "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
+      }
+    },
+    {
+      "id": "lets_you_change_the_zoom_out_limit",
+      "name": "Lets you change the zoom out limit",
+      "categoryId": "environment",
+      "flags": {
+        "FIntCameraMaxZoomDistance": "9999"
+      }
+    },
+    {
+      "id": "change_age_rating_learn_more_link",
+      "name": "Change Age Rating Learn More Link",
+      "categoryId": "interface",
+      "flags": {
+        "FStringExperienceGuidelinesExplainedPageUrl": "https://playboicarti.com"
+      }
+    },
+    {
+      "id": "hamburger_icon",
+      "name": "Hamburger Icon",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableHamburgerIcon": "True"
+      }
+    },
+    {
+      "id": "mini_webview",
+      "name": "Mini Webview",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagWebViewProtocol": "False"
+      }
+    },
+    {
+      "id": "thick_healthbar",
+      "name": "THICK Healthbar",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagUpdateHealthBar": "True"
+      }
+    },
+    {
+      "id": "remove_parental_controls_tab",
+      "name": "Remove Parental Controls Tab",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagLuaAppsEnableParentalControlsTab": "False"
+      }
+    },
+    {
+      "id": "legacy_search",
+      "name": "Legacy Search",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagAXSearchLandingPageIXPEnabled4": "False"
+      }
+    },
+    {
+      "id": "disable_profile_picture_customization",
+      "name": "Disable Profile Picture Customization",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagAXDefaultAvatarToShopEnabled3": "False"
+      }
+    },
+    {
+      "id": "old_luaapp_chat_button",
+      "name": "old luaapp chat button",
+      "categoryId": "interface",
+      "flags": {
+        "FStringNewChatTabExperimentLayerValue": "2024MUSIC"
+      }
+    },
+    {
+      "id": "disable_toast_notifications",
+      "name": "Disable Toast Notifications",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagToastNotificationsProtocolEnabled2": "False"
+      }
+    },
+    {
+      "id": "rename_communications_to_voice_enabled",
+      "name": "Rename Communications to Voice Enabled",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagGameDetailsDecoupledCommunication": "False"
+      }
+    },
+    {
+      "id": "break_reduced_motion_v4",
+      "name": "Break Reduced Motion V4",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagFixReducedMotionStuckIGM2": "False"
+      }
+    },
+    {
+      "id": "revert_charts_back_to_discovery",
+      "name": "Revert \"Charts\" back to Discovery",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagLuaAppChartsPageRenameIXP": "False"
+      }
+    },
+    {
+      "id": "disable_sidebar",
+      "name": "Disable Sidebar",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableNavBarLabels3": "False"
+      }
+    },
+    {
+      "id": "v1_menu_fix",
+      "name": "V1 Menu Fix",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagSettingsHubIndependentBackgroundVisibility": "True",
+        "FFlagFixReportButtonCutOff": "False"
+      }
+    },
+    {
+      "id": "v2_menu",
+      "name": "V2 Menu",
+      "categoryId": "interface",
+      "flags": {
+        "FIntNewInGameMenuPercentRollout3": "1000"
+      }
+    },
+    {
+      "id": "custom_disconnect_message",
+      "name": "Custom Disconnect Message",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagReconnectDisabled": "True",
+        "FStringReconnectDisabledReason": "You're stupid and I hate you"
+      }
+    },
+    {
+      "id": "verified_badge",
+      "name": "Verified Badge",
+      "categoryId": "privacy",
+      "flags": {
+        "FStringWhitelistVerifiedUserId": "UserID"
+      }
+    },
+    {
+      "id": "verified_badge_on_everyone",
+      "name": "Verified Badge on everyone",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagOverridePlayerVerifiedBadge": "True"
+      }
+    },
+    {
+      "id": "applies_cool_colors_to_stuff",
+      "name": "Applies cool colors to stuff",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDebugDisplayUnthemedInstances": "True"
+      }
+    },
+    {
+      "id": "revert_new_invite_menu",
+      "name": "Revert new invite menu",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableNewInviteMenuIXP2": "False"
+      }
+    },
+    {
+      "id": "revert_spacing_on_errors",
+      "name": "Revert spacing on errors",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagErrorPromptResizesHeight": "False"
+      }
+    },
+    {
+      "id": "remove_disconnect_blurloading_blur",
+      "name": "Remove Disconnect Blur/Loading Blur",
+      "categoryId": "interface",
+      "flags": {
+        "FIntRobloxGuiBlurIntensity": "0"
+      }
+    },
+    {
+      "id": "disable_new_chat_translation_settings",
+      "name": "Disable New Chat Translation Settings",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagChatTranslationSettingEnabled3": "False"
+      }
+    },
+    {
+      "id": "new_camera_mode",
+      "name": "New Camera Mode",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagNewCameraControls": "True"
+      }
+    },
+    {
+      "id": "custom_microprofile_scale",
+      "name": "Custom MicroProfile Scale",
+      "categoryId": "interface",
+      "flags": {
+        "DFIntMicroProfilerDpiScaleOverride": "100"
+      }
+    },
+    {
+      "id": "set_custom_font_size",
+      "name": "Set Custom Font Size",
+      "categoryId": "interface",
+      "flags": {
+        "FIntFontSizePadding": "1"
+      }
+    },
+    {
+      "id": "adjust_scroll_speed",
+      "name": "Adjust Scroll Speed",
+      "categoryId": "interface",
+      "flags": {
+        "FIntScrollWheelDeltaAmount": "140"
+      }
+    },
+    {
+      "id": "set_custom_kick_message_length",
+      "name": "Set Custom Kick Message Length",
+      "categoryId": "interface",
+      "flags": {
+        "FIntMaxKickMessageLength": "1"
+      }
+    },
+    {
+      "id": "darker_dark_theme",
+      "name": "Darker Dark Theme",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagLuaAppUseUIBloxColorPalettes1": "True",
+        "FFlagUIBloxUseNewThemeColorPalettes": "True"
+      }
+    },
+    {
+      "id": "blue_theme",
+      "name": "Blue Theme",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagLuaAppEnableFoundationColors3": "True"
+      }
+    },
+    {
+      "id": "no_transparency_v4_menu_2023",
+      "name": "No Transparency V4 Menu (2023)",
+      "categoryId": "interface",
+      "flags": {
+        "FStringInGameMenuModernizationStickyBarForcedUserIds": "UserID"
+      }
+    },
+    {
+      "id": "subscriptions_page",
+      "name": "Subscriptions Page",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagLuaAppDevSubsEnabled": "True"
+      }
+    },
+    {
+      "id": "overlay_that_shows_what_you_type",
+      "name": "Overlay that shows what you type",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDebugTextBoxServiceShowOverlay": "True"
+      }
+    },
+    {
+      "id": "ammount_of_lines_to_show_at_once_for_above",
+      "name": "Ammount of lines to show at once for above",
+      "categoryId": "interface",
+      "flags": {
+        "DFIntTextBoxServiceHistorySize": "1"
+      }
+    },
+    {
+      "id": "hides_gui",
+      "name": "Hides gui",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDebugAdornsDisabled": "True"
+      }
+    },
+    {
+      "id": "dont_render_ui",
+      "name": "Dont Render UI",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDebugDontRenderUI": "True"
+      }
+    },
+    {
+      "id": "dont_render_screen_guis",
+      "name": "Dont Render Screen GUIs",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDebugDontRenderScreenGui": "True"
+      }
+    },
+    {
+      "id": "disable_autocomplete",
+      "name": "Disable Autocomplete",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableCommandAutocomplete": "False"
+      }
+    },
+    {
+      "id": "break_top_bar_menu",
+      "name": "Break Top Bar Menu",
+      "categoryId": "interface",
+      "flags": {
+        "FStringNewInGameMenuForceds": "UserID",
+        "FFlagEnableInGameMenuChrome": "True"
+      }
+    },
+    {
+      "id": "break_collectible_icon",
+      "name": "Break Collectible Icon",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDisplayCollectiblesIcon": "False"
+      }
+    },
+    {
+      "id": "disable_bubble_chat",
+      "name": "Disable Bubble Chat",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagEnableBubbleChatFromChatService": "False"
+      }
+    },
+    {
+      "id": "disable_camera_and_selfview",
+      "name": "Disable Camera & Selfview",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagSelfieViewEnabled": "True"
+      }
+    },
+    {
+      "id": "disable_avatar_chat",
+      "name": "Disable Avatar Chat",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagAvatarChatServiceEnabled3": "False"
+      }
+    },
+    {
+      "id": "remove_vc_beta_badge",
+      "name": "Remove VC Beta Badge",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagVoiceBetaBadge": "False",
+        "FFlagTopBarUseNewBadge": "False",
+        "FFlagBetaBadgeLearnMoreLinkFormview": "False",
+        "FFlagControlBetaBadgeWithGuac": "False",
+        "FStringVoiceBetaBadgeLearnMoreLink": "null"
+      }
+    },
+    {
+      "id": "vr_controller_transparency",
+      "name": "VR Controller transparency",
+      "categoryId": "privacy",
+      "flags": {
+        "FIntVRTouchControllerTransparency": "0"
+      }
+    },
+    {
+      "id": "disable_vr_collision_fade",
+      "name": "Disable VR Collision Fade",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagViewCollisionFadeToBlackInVR": "False"
+      }
+    },
+    {
+      "id": "limit_videos_playing",
+      "name": "Limit Videos Playing",
+      "categoryId": "interface",
+      "flags": {
+        "DFIntVideoMaxNumberOfVideosPlaying": "0"
+      }
+    },
+    {
+      "id": "disable_dsa_reporting_in_game",
+      "name": "Disable DSA Reporting In-game",
+      "categoryId": "privacy",
+      "flags": {
+        "FFlagDSAIllegalContentReporting2": "False"
+      }
+    },
+    {
+      "id": "desktop_app_dev_tools",
+      "name": "Desktop App Dev Tools",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDebugEnableNewWebView2DevTool": "True"
+      }
+    },
+    {
+      "id": "enable_events_tabchange_events_tab_url",
+      "name": "Enable Events Tab/Change Events Tab URL",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagPlatformEventEnabled2": "True",
+        "FStringPlatformEventUrl": "AnyLinkHere"
+      }
+    },
+    {
+      "id": "custom_accessory_positions_working_in_game",
+      "name": "Custom Accessory Positions Working in game",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagAXAccessoryAdjustment": "True",
+        "FFlagAXAccessoryAdjustmentIXPEnabled": "True",
+        "FFlagAXAccessoryAdjustmentIXPEnabledForAll": "True",
+        "FFlagAXAvatarFetchResultCamelCase": "True",
+        "FFlagAccessoryAdjustmentEnabled3": "True",
+        "FFlagAccessoryAdjustmentEnabled4": "True"
+      }
+    },
+    {
+      "id": "enable_first_time_user_experience_for_chrome_ui",
+      "name": "Enable First Time User Experience for Chrome UI",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableChromeFTUX": "True"
+      }
+    },
+    {
+      "id": "disable_haptics_option",
+      "name": "Disable Haptics Option",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagAddHapticsToggle": "False"
+      }
+    },
+    {
+      "id": "enable_better_haptics",
+      "name": "Enable Better Haptics",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableBetterHapticsResultHandling": "True"
+      }
+    },
+    {
+      "id": "old_chrome_ui_topbar",
+      "name": "Old Chrome UI Topbar",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableHamburgerIcon": "False",
+        "FFlagEnableUnibarV4IA": "False",
+        "FFlagEnableAlwaysOpenUnibar2": "False",
+        "FFlagUseNewUnibarIcon": "False",
+        "FFlagUseSelfieViewFlatIcon": "False",
+        "FFlagUnibarRespawn": "False",
+        "FFlagEnableChromePinIntegrations2": "False"
+      }
+    },
+    {
+      "id": "extra_plus_left_healthbar_on_chrome_ui_topbar",
+      "name": "Extra + Left Healthbar on Chrome UI Topbar",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableUnibarMaxDefaultOpen": "True",
+        "FFlagUpdateHealthBar": "False",
+        "FFlagUseNewPinIcon": "False"
+      }
+    },
+    {
+      "id": "chrome_ui_topbar",
+      "name": "Chrome UI TopBar",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableReportAbuseMenuRoactABTest2": "True",
+        "FFlagEnableInGameMenuChromeABTest2": "True",
+        "FFlagEnableInGameMenuChromeABTest3": "True"
+      }
+    },
+    {
+      "id": "chrome_ui_topbar_removal",
+      "name": "Chrome UI Topbar Removal",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableInGameMenuChromeABTest2": "False",
+        "FFlagEnableReportAbuseMenuRoactABTest2": "False",
+        "FFlagEnableInGameMenuChromeABTest3": "False"
+      }
+    },
+    {
+      "id": "hide_playerlist_close_button_on_chrome_ui",
+      "name": "Hide playerlist close button on Chrome UI",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDisablePlayerListDisplayCloseBtn": "True"
+      }
+    },
+    {
+      "id": "pin_chat_on_chrome_ui",
+      "name": "Pin Chat on Chrome UI",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagEnableChromePinnedChat": "True"
+      }
+    },
+    {
+      "id": "audio_occlusion",
+      "name": "Audio Occlusion",
+      "categoryId": "network",
+      "flags": {
+        "FFlagDebugEnableDirectAudioOcclusion2": "True"
+      }
+    },
+    {
+      "id": "limit_audios_that_are_being_played",
+      "name": "Limit audios that are being played",
+      "categoryId": "network",
+      "flags": {
+        "DFIntMaxLoadableAudioChannelCount": "1"
+      }
+    },
+    {
+      "id": "mess_with_voice_chat_volume",
+      "name": "Mess with voice chat volume",
+      "categoryId": "network",
+      "flags": {
+        "DFIntVoiceChatVolumeThousandths": "100000"
+      }
+    },
+    {
+      "id": "no_sounds",
+      "name": "No sounds",
+      "categoryId": "network",
+      "flags": {
+        "FFlagDebugRomarkMockingAudioDevices": "True"
+      }
+    },
+    {
+      "id": "tool_desync",
+      "name": "Tool Desync",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
+      }
+    },
+    {
+      "id": "remap_r6_to_r15_rigsweird_movement",
+      "name": "Remap R6 to R15 Rigs/Weird Movement",
+      "categoryId": "abusive",
+      "flags": {
+        "FFlagRemapAnimationR6ToR15Rig": "True"
+      }
+    },
+    {
+      "id": "weird_leg_movement",
+      "name": "Weird Leg Movement",
+      "categoryId": "abusive",
+      "flags": {
+        "DFFlagAnimatorPostProcessIK": "True"
+      }
+    },
+    {
+      "id": "adjust_hip_height_clamps",
+      "name": "Adjust Hip Height Clamps",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntHipHeightClamp": "-48"
+      }
+    },
+    {
+      "id": "random_high_jumps",
+      "name": "Random High Jumps",
+      "categoryId": "abusive",
+      "flags": {
+        "FFlagSimAdaptiveTimesteppingDefault2": "True",
+        "DFFlagSimHumanoidTimestepModelUpdate": "True"
+      }
+    },
+    {
+      "id": "no_animations",
+      "name": "No Animations ✨",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
+      }
+    },
+    {
+      "id": "delayed_animations",
+      "name": "Delayed Animations",
+      "categoryId": "abusive",
+      "flags": {
+        "FFlagProcessAnimationLooped": "False"
+      }
+    },
+    {
+      "id": "possible_super_jump",
+      "name": "Possible Super Jump",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
+      }
+    },
+    {
+      "id": "change_datasender_rate",
+      "name": "Change DataSender Rate",
+      "categoryId": "network",
+      "flags": {
+        "DFIntDataSenderRate": "-1"
+      }
+    },
+    {
+      "id": "disable_touch_events",
+      "name": "Disable Touch Events",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntTouchSenderMaxBandwidthBps": "-1"
+      }
+    },
+    {
+      "id": "fake_lag",
+      "name": "Fake Lag ✨",
+      "categoryId": "network",
+      "flags": {
+        "DFIntS2PhysicsSenderRate": "1"
+      }
+    },
+    {
+      "id": "invisible_1",
+      "name": "Invisible 1",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntS2PhysicsSenderRate": "-30"
+      }
+    },
+    {
+      "id": "invisible_2",
+      "name": "Invisible 2 ✨",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
+      }
+    },
+    {
+      "id": "clientsided_invisible",
+      "name": "Clientsided Invisible",
+      "categoryId": "abusive",
+      "flags": {
+        "FIntParallelDynamicPartsFastClusterBatchSize": "-1"
+      }
+    },
+    {
+      "id": "warp_and_slowmotion",
+      "name": "Warp & Slowmotion ✨",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntMaxMissedWorldStepsRemembered": "1"
+      }
+    },
+    {
+      "id": "warp_and_slowmotion_high",
+      "name": "Warp & Slowmotion (High)",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntMaxMissedWorldStepsRemembered": "1000"
+      }
+    },
+    {
+      "id": "noclip_1",
+      "name": "Noclip 1",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
+      }
+    },
+    {
+      "id": "noclip_2",
+      "name": "Noclip 2",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntSimBroadPhasePairCountMax": "50"
+      }
+    },
+    {
+      "id": "hip_height",
+      "name": "Hip Height ✨",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
+      }
+    },
+    {
+      "id": "draws_a_circle_under_avatars",
+      "name": "Draws a circle under avatars",
+      "categoryId": "abusive",
+      "flags": {
+        "FFlagDebugAvatarChatVisualization": "True",
+        "FFlagEnableInGameMenuChromeABTest2": "False"
+      }
+    },
+    {
+      "id": "humanoid_outline",
+      "name": "Humanoid Outline",
+      "categoryId": "abusive",
+      "flags": {
+        "DFFlagDebugDrawBroadPhaseAABBs": "True"
+      }
+    },
+    {
+      "id": "fflag_above_but_more_complex",
+      "name": "fflag above but more complex",
+      "categoryId": "abusive",
+      "flags": {
+        "DFFlagDebugDrawBvhNodes": "True"
+      }
+    },
+    {
+      "id": "buggy_zplane_camera",
+      "name": "Buggy ZPlane Camera ✨",
+      "categoryId": "environment",
+      "flags": {
+        "FIntCameraFarZPlane": "1"
+      }
+    },
+    {
+      "id": "xray",
+      "name": "Xray ✨",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntCullFactorPixelThresholdMainViewHighQuality": "10000",
+        "DFIntCullFactorPixelThresholdMainViewLowQuality": "10000",
+        "DFIntCullFactorPixelThresholdShadowMapHighQuality": "10000",
+        "DFIntCullFactorPixelThresholdShadowMapLowQuality": "10000"
+      }
+    },
+    {
+      "id": "break_everything",
+      "name": "break everything",
+      "categoryId": "network",
+      "flags": {
+        "DFIntHttpRbxApiClientPerMinuteRequestLimit": "60",
+        "DFIntHttpRbxApiJobFrequencyInSeconds": "60",
+        "DFIntHttpRbxApiMaxBudgetMultiplier": "2",
+        "DFIntHttpRbxApiMaxRetryBudgetPerMinute": "60",
+        "DFIntHttpRbxApiMaxRetryCount": "3",
+        "DFIntHttpRbxApiMaxRetryQueueSize": "1000",
+        "DFIntHttpRbxApiMaxSyncRetries": "3",
+        "DFIntHttpRbxApiPerMinuteRequestLimit": "60",
+        "DFIntHttpRbxApiSameUrlRequestLimit": "30",
+        "DFIntHttpRbxApiServiceDecaySeconds": "300",
+        "DFIntHttpRbxApiMaxThrottledQueue": "500"
+      }
+    },
+    {
+      "id": "stop_the_chinese_from_spying_on_you",
+      "name": "Stop the Chinese from spying on you",
+      "categoryId": "privacy",
+      "flags": {
+        "FStringTencentAuthPath": "null"
+      }
+    },
+    {
+      "id": "omg_i_cant_believe_roblox_is_that_dumb_to_do_this",
+      "name": "omg i cant believe roblox is that dumb to do this...",
+      "categoryId": "abusive",
+      "flags": {
+        "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
+        "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
+        "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
+        "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
+      }
+    },
+    {
+      "id": "crash_roblox_1",
+      "name": "Crash Roblox 1",
+      "categoryId": "abusive",
+      "flags": {
+        "DFIntTimestepArbiterThresholdCFLThou": "0"
+      }
+    },
+    {
+      "id": "crash_roblox_2",
+      "name": "Crash Roblox 2",
+      "categoryId": "abusive",
+      "flags": {
+        "DFFlagVideoCaptureServiceEnabled": "False"
+      }
+    },
+    {
+      "id": "increase_ping",
+      "name": "Increase Ping",
+      "categoryId": "network",
+      "flags": {
+        "DFIntDataSenderMaxBandwidthBps": "150"
+      }
+    },
+    {
+      "id": "shows_the_state_of_a_flag",
+      "name": "Shows the state of a flag",
+      "categoryId": "interface",
+      "flags": {
+        "FStringDebugShowFlagState": "FLAG_HERE"
+      }
+    },
+    {
+      "id": "show_outlined_chunks",
+      "name": "Show Outlined Chunks",
+      "categoryId": "environment",
+      "flags": {
+        "FFlagDebugLightGridShowChunks": "True"
+      }
+    },
+    {
+      "id": "show_outlined_chunks_that_are_being_interacted",
+      "name": "Show Outlined Chunks that are being interacted",
+      "categoryId": "environment",
+      "flags": {
+        "DFFlagDebugEnableStreamingSolverVisualization": "True"
+      }
+    },
+    {
+      "id": "prevents_remote_events_from_running",
+      "name": "Prevents Remote Events from running",
+      "categoryId": "network",
+      "flags": {
+        "DFIntRemoteEventSingleInvocationSizeLimit": "1"
+      }
+    },
+    {
+      "id": "show_all_error_strings",
+      "name": "Show All Error Strings",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDebugEnableErrorStringTesting": "True"
+      }
+    },
+    {
+      "id": "logs_stuff_in_dev_console",
+      "name": "logs stuff in dev console",
+      "categoryId": "interface",
+      "flags": {
+        "FStringDebugLuaLogLevel": "debug",
+        "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
+      }
+    },
+    {
+      "id": "octree_validation",
+      "name": "Octree Validation",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDebugEnableOctreeValidation": "True"
+      }
+    },
+    {
+      "id": "print_data_ping_breakdown",
+      "name": "Print Data Ping Breakdown",
+      "categoryId": "network",
+      "flags": {
+        "DFFlagDebugPrintDataPingBreakDown": "True"
+      }
+    },
+    {
+      "id": "debug_audio_logging",
+      "name": "Debug Audio Logging",
+      "categoryId": "interface",
+      "flags": {
+        "DFFlagDebugAudioLogging": "True"
+      }
+    },
+    {
+      "id": "debug_audio_logging2",
+      "name": "Debug Audio Logging 2",
+      "categoryId": "interface",
+      "flags": {
+        "DFFlagDebugAudioLogging2": "True"
+      }
+    },
+    {
+      "id": "tracker_lod_controller_debug_ui",
+      "name": "Tracker LOD Controller Debug UI",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagTrackerLodControllerDebugUI": "True"
+      }
+    },
+    {
+      "id": "drag_detectors_1",
+      "name": "Drag Detectors 1",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDragDetectors1": "False"
+      }
+    },
+    {
+      "id": "user_click_to_move_support_agent_can_climb",
+      "name": "User Click to Move Support Agent Can Climb",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagUserClickToMoveSupportAgentCanClimb2": "False"
+      }
+    },
+    {
+      "id": "Disable_feedback_soothsayer_check",
+      "name": "Disable feedback soothsayer check",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDisableFeedbackSoothsayerCheck": "False"
+      }
+    },
+    {
+      "id": "Rename_passes_and_gear_to_subscriptions_and_passes",
+      "name": "Rename passes and gear to subscriptions and passes",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagRenamePassesAndGearToSubscriptionsAndPasses": "False"
+      }
+    },
+    {
+      "id": "Simulate_Hang_At_Startup",
+      "name": "Simulate Hang At Startup",
+      "categoryId": "abusive",
+      "flags": {
+        "DFFlagDebugSimulateHangAtStartup": "True"
+      }
+    },
+    {
+      "id": "Simulate_Hang_At_Shutdown",
+      "name": "Simulate Hang At Shutdown",
+      "categoryId": "abusive",
+      "flags": {
+        "DFFlagDebugSimulateHangAtShutdown": "True"
+      }
+    },
+    {
+      "id": "Sim_ldl_program_print_stats",
+      "name": "Sim LDL Program Print Stats",
+      "categoryId": "interface",
+      "flags": {
+        "DFFlagDebugSimLDLProgramPrintBuildStats": "True",
+        "DFFlagDebugSimLDLProgramPrintExecStats": "True"
+      }
+    },
+    {
+      "id": "count_sim_body_allocations",
+      "name": "Count Sim Body Allocations",
+      "categoryId": "interface",
+      "flags": {
+        "FFlagDebugCountSimBodyAllocations": "True"
+      }
+    }
+  ]
+}

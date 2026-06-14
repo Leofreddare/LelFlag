@@ -1,0 +1,46 @@
+{
+    "categories": [
+        {
+            "id": "performance",
+            "name": "Performance",
+            "description": "FPS, stutter reduction, CPU, memory, and balanced performance presets.",
+            "icon": "assets/icons/performance.png"
+        },
+        {
+            "id": "rendering",
+            "name": "Rendering",
+            "description": "Graphics, lighting, shadows, textures, meshes, terrain, sky, and render quality flags.",
+            "icon": "assets/icons/Rendering.png"
+        },
+        {
+            "id": "environment",
+            "name": "Environment",
+            "description": "World, grass, wind, viewport, and visual environment options.",
+            "icon": "assets/icons/Environment.png"
+        },
+        {
+            "id": "interface",
+            "name": "Interface",
+            "description": "UI, titlebar, autocomplete, FPS display, and CoreGUI-related flags.",
+            "icon": "assets/icons/Interface.png"
+        },
+        {
+            "id": "network",
+            "name": "Network",
+            "description": "Low ping, latency, and network stability presets.",
+            "icon": "assets/icons/Network.png"
+        },
+        {
+            "id": "privacy",
+            "name": "Privacy",
+            "description": "Telemetry and ad-related flags.",
+            "icon": "assets/icons/Privacy.png"
+        },
+        {
+            "id": "abusive",
+            "name": "Abusive",
+            "description": "Flags related to abusive behavior.",
+            "icon": "assets/icons/Abusive.png"
+        }
+    ]
+}
